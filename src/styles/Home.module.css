@@ -85,6 +85,18 @@
   max-width: 300px;
 }
 
+.navbar{
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background-color: #363535;
+  color:#ffffff;
+  text-align: right;
+  justify-content: flex-end;
+  padding: 20px;
+
+}
+
 .card:hover,
 .card:focus,
 .card:active {
