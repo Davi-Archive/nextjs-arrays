@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import styles from '../styles/navbar.module.css'
-
+import styles from '../styles/nav-footer.module.css'
 
 export default function Navbar(props){
 return (
-        <div className={styles.navbar}>
+        <div className={styles.navItem}>
            <Link href={props.destino}>
-                 {props.name}
+                 <p>{props.name}</p>
             </Link>
         </div>
     )
