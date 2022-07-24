@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <img src="/arry2.jpg" alt="array" width="800px" height="600px" />
+          <Image src="/arry2.jpg" alt="array" width="800px" height="600px" />
         </div>
       </main>
 
