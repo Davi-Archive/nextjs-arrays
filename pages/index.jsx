@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './styles/Home.module.css'
 import Footer from './components/Footer'
 import Layout from './components/Layout'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <img src="/arry2.jpg" />
+          <img src="/arry2.jpg" alt="array" width="800px" height="600px" />
         </div>
       </main>
 
