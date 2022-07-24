@@ -6,7 +6,6 @@ export default function Layout(){
         <div className={styles.navbar}>
         <Navbar destino="/" name="Home" />
         <Navbar destino="./array" name="Arrays"  />
-        <Navbar destino="./sobre" name="Sobre"  />
          </div>
    )
 }
