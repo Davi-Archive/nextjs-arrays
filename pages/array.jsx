@@ -41,7 +41,7 @@ class Array extends Component {
 
         <tr className={styles.grid}>
           <td className={styles.card}>
-             <p>[1, 2, 3].push('4')</p>
+             <p>[1, 2, 3].push(&apos;4&apos;)</p>
           </td>
           <td className={styles.result}>
           <p>[1, 2, 3 ,4]</p>
@@ -81,25 +81,25 @@ class Array extends Component {
 
         <tr className={styles.grid}>
           <td className={styles.card}>
-             <p>['a', 'b'].concat('c')</p>
+             <p>[&apos;a&apos;, &apos;b&apos;].concat(&apos;c&apos;)</p>
           </td>
           <td className={styles.result}>
-          <p>['a', 'b', 'c']</p>
+          <p>[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]</p>
           </td>
         </tr>
 
         <tr className={styles.grid}>
           <td className={styles.card}>
-             <p>['a', 'b', 'c'].slice(1)</p>
+             <p>[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;].slice(1)</p>
           </td>
           <td className={styles.result}>
-          <p>['a', 'b']</p>
+          <p>[&apos;a&apos;, &apos;b&apos;]</p>
           </td>
         </tr>
 
         <tr className={styles.grid}>
           <td className={styles.card}>
-             <p>['a', 'b', 'c'].join('-')</p>
+             <p>[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;].join(&apos;-&apos;)</p>
           </td>
           <td className={styles.result}>
           <p>a-b-c</p>
@@ -108,7 +108,7 @@ class Array extends Component {
 
         <tr className={styles.grid}>
           <td className={styles.card}>
-             <p>['a', 'b', 'c'].indexOf('b')</p>
+             <p>[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;].indexOf(&apos;b&apos;)</p>
           </td>
           <td className={styles.result}>
           <p> 1 </p>
@@ -117,7 +117,7 @@ class Array extends Component {
 
         <tr className={styles.grid}>
           <td className={styles.card}>
-             <p>['a', 'b', 'c'].includes('c')</p>
+             <p>[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;].includes(&apos;c&apos;)</p>
           </td>
           <td className={styles.result}>
           <p> true </p>
@@ -172,7 +172,7 @@ class Array extends Component {
 
         <tr className={styles.grid}>
           <td className={styles.card}>
-             <p>string([2, 3, 4, 5].every((x) =&gt; x {'<'} 6));</p>
+             <p>string([2, 3, 4, 5].every((x) =&gt; x {' < '} 6));</p>
           </td>
           <td className={styles.result}>
           <p>true</p>
