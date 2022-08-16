@@ -25,10 +25,11 @@ class Array extends Component {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout />
-        <main className={styles.main}>
         <h1 className={styles.title}>
           Bem Vindo ao Exemplo de Arrays
         </h1>
+        <div className={styles.main}>
+
 
         <tr className={styles.grid}>
           <td className={styles.card}>
@@ -215,7 +216,7 @@ class Array extends Component {
           </td>
         </tr>
 
-      </main>
+      </div>
 
       <footer>
        <Footer />
